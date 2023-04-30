@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="Style/style.css">
+    <title>Page index</title>
+</head>
+<body class="body-index">
+    <div id="preloader"></div>
+
+    <div class="particle"></div>
+    
+    <div class="index" id="particles-js">
+        <h1>BIENVENUE </h1>
+        <a href="Vue/login.jsp">Veuillez cliquer ici pour vous connecter </a>
+    </div>
+    
+    <div id="hidden">
+        <iframe width="560" height="315" src="https://www.youtube.com/embed/yJg-Y5byMMw" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+        <iframe width="560" height="315" src="https://www.youtube.com/embed/yJg-Y5byMMw" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+        <iframe width="560" height="315" src="https://www.youtube.com/embed/yJg-Y5byMMw" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+        <iframe width="560" height="315" src="https://www.youtube.com/embed/yJg-Y5byMMw" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+    </div>
+    <script>
+</script>
+    <script type="text/javascript" src="/MyProject/JS/reload.js"></script>
+    <script type="text/javascript" src="/MyProject/JS/particles.js"></script>
+    <script type="text/javascript" src="/MyProject/JS/app.js"></script>
+    <script>
+	// Animation du h1 
+	
+	var welcome = document.querySelector("a");
+	var intervalId = setInterval(function(){
+	    welcome.style.color = (welcome.style.color === "white") ? "red" : "white";
+	}, 500);
+
+	// Arrêter l'animation après 5 secondes
+	setTimeout(function(){
+	    clearInterval(intervalId);
+	}, 800000);
+
+    </script>
+    
+
+
+</body>
+</html>

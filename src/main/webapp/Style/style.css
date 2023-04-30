@@ -1,0 +1,233 @@
+@charset "UTF-8";
+* {
+    margin: 0;
+    padding: 0;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+/* css de la page accueil.html */
+
+.body-accueil {
+	background-image: linear-gradient(rgba(15, 15, 15, 0.176), rgba(46, 59, 83, 0.621)), url(../Images/3ddd.png);
+    width: 100%;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    height: 82vh;
+    overflow: hidden;
+    position: relative;
+}
+
+.body-accueil h1 {
+    font-size: 70px;
+    color: white;
+    margin: 10%;
+    margin-left: 57%;
+    height: 100%;
+    letter-spacing: 3px;
+
+
+}
+
+
+
+.list-child {
+    position: absolute;
+    top: 90px;
+    right: 90px;
+    padding: 65px;
+    margin-right: 18%;
+    border-radius: 140px;
+    font-size: 20px;
+
+}
+
+.list-child p {
+    font-size: 30px;
+    font-weight: 500;
+    color: white;
+    margin-left: -16px;
+    font-weight: 600;
+    color: rgba(76, 168, 76, 0.78);
+
+}
+
+ul li {
+    list-style:square;
+    font-size: 19px;
+    margin-top: 10px;
+    color: white;
+}
+
+
+/*Css index.html */
+
+.body-index {
+    overflow: hidden;
+
+}
+
+#particles-js {
+    width: 100%;
+    height: 100vh;
+    background-image: linear-gradient(rgb(0, 0, 2), rgba(0, 0, 0, 0.976)), url(../Images/14.gif);
+}
+
+
+.index {
+    display: flex;
+    flex-direction: column;
+    
+}
+.index h1 {
+	color:white;
+}
+
+.body-index h1 {
+    font-size: 55px;
+    color:white;
+    margin-top: 19%;
+    text-align: center;
+
+}
+
+.body-index a {
+    color: white;
+    font-size: 17px;
+    text-align: center;
+    margin: 3%;
+
+}
+
+.body-index a:hover {
+    color:#2c3e50
+}
+
+#preloader {
+    background: #000 url(../Images/14.gif) no-repeat center center;
+    background-size: 6%;
+    position: fixed;
+    width: 100%;
+    height: 100vh;
+    z-index: 100;
+}
+
+/* CSS Login */
+
+
+*  {
+    box-sizing: border-box;
+}
+
+.body-login{
+    margin: 0;
+    padding: 0;
+    font-family: 'Courier New', Courier, monospace;
+    background: linear-gradient(45deg,#2c3e50,#000);
+    padding: 40px;
+}
+
+.container  {
+    min-height: calc(100vh - 40px * 2);
+    display: grid;
+    grid-template-columns: 50% 50%;
+    border-radius: 10px;
+    overflow: hidden;
+}
+
+.login-left {
+    display: flex;
+    flex-direction: column;
+    justify-content:content;
+    padding-left: 150px;
+    background-color: white;
+    padding-top: 87px;
+}
+
+.login-right {
+    background-color:#eee ;
+    display: flex;
+    justify-content: center;
+
+}
+
+.login-right img {
+    width: 80%;
+}
+
+.login-header {
+    margin-bottom: 50px;
+}
+
+.login-header h1 {
+    font-size: 40px;
+    margin-bottom: 10px;
+}
+
+.login-header p {
+    opacity: .7;
+}
+
+.login-form {
+    width: 450px;
+}
+
+.login-form-content {
+    display: flex;
+    flex-direction: column;
+    gap: 35px;
+}
+
+.form-item label:not(.checkboxLabel) {
+    display: inline-block;
+    background-color: white;
+    margin-bottom: 10px;
+    position: absolute;
+    padding: 0 10px;
+    transform: translate(30px, -10px);
+    font-size: 14px;
+}
+
+input[type="text"], input[type="password"] {
+    border: 1px solid black;
+    height: 55px;
+    padding: 0 2rem;
+    width: 100%;
+    outline: none;
+    transition: background .5s;
+    font-size: 18px;
+    border-radius: 100px;
+
+}
+
+.checkbox {
+    display: flex;
+    align-items: center;
+    gap: 7px;
+}
+
+input[type="checkbox"] {
+    width: 20px;
+    height: 20px;
+    accent-color:#000 ;
+}
+
+button {
+    border: none;
+    background: linear-gradient(45deg,#2c3e50,#000);
+    color: white;
+    padding: 1rem;
+    border-radius: 100px;
+    text-align: center;
+    text-transform: uppercase;
+    font-size: 18px;
+    height: 55px;
+    cursor: pointer;
+
+}
+
+button:hover {
+    background: linear-gradient(45deg,#000,#2c3e50);
+
+}
+
